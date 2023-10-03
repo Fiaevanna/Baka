@@ -1,0 +1,14 @@
+a {
+    
+  font-size: 17px;
+  color: #ffffff;
+  text-decoration: inherit;
+  margin-top: 25px;
+  text-shadow: 1px 1px black;
+  font-family: Rokkitt, serif;
+  font-size: 20px;
+}
+
+a:hover {
+    color: #81a197;
+  }
