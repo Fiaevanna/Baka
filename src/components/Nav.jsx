@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <>
       <div style={{ display: "flex", justifyContent: "center", gap: "10px"}}>
-        <Link to={"/home"}>Home</Link>
+        <Link to={"/"}>Home</Link>
         <Link to={"/products"}>Products</Link>
         <Link to={"/aboutus"}>About us</Link>
         <Link to={"/reviews"}>Reviews</Link>

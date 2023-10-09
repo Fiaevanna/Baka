@@ -19,8 +19,8 @@ import Root from './components/Root'
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<Root/>}>
-        <Route path='/home' element={<Home/>} />
+      <Route path='/' element={<Root />}>
+        <Route index element={<Home/>} />
         <Route path='/products' element={<Products/>} />
         <Route path='/aboutus' element={<AboutUs/>} />
         <Route path='/reviews' element={<Reviews/>} />
